@@ -1,6 +1,21 @@
 # PowerShell MCP Servers
 
+# Table of Contents
+
+1. [PowerShell MCP Servers](#powershell-mcp-servers)
+   - [AI Images](#ai-images)
+     - [Generate-AIImage](#generate-aiimage)
+     - [Generate-AIImageVariation](#generate-aiimagevariation)
+     - [Analyze-AIImage](#analyze-aiimage)
+   - [GeoLocation](#geolocation)
+     - [Get-PublicIPAddress](#get-publicipaddress)
+     - [Find-Geolocation](#find-geolocation)
+2. [Getting Started](#getting-started)
+3. [Requirements](#requirements)
+
 ## AI Images
+
+[AIImages Folder](./AIImages/)
 
 MCP Server to use OpenAI Image Tools
 
@@ -26,6 +41,23 @@ This MCP server provides access to powerful AI-based image generation and analys
 1. Configure your OpenAI API key in the `.vscode/mcp.json` file
 2. Run the server with PowerShell: `Start-McpServer`
 3. Connect to the server in VS Code with the Microsoft PowerShell extension
+
+## GeoLocation
+
+[GeoLocation Folder](./GeoLocation/)
+
+MCP Server to provide geolocation and public IP address utilities
+
+This MCP server offers tools for retrieving geolocation information and public IP addresses:
+
+1. **Get-PublicIPAddress** - Retrieves the public IP address of the machine running the script
+   - Uses `http://ipinfo.io/json` for IP address lookup
+   - Useful for debugging and API testing
+
+2. **Find-Geolocation** - Resolves an IP address or domain name to geolocation information
+   - Uses the `https://freegeoip.live` API for geolocation data
+   - Supports both IP addresses and domain names
+   - Provides details such as country, region, city, and more
 
 ### Requirements
 

@@ -1,0 +1,12 @@
+{"Level":"Info","Message":"Starting Register-MCPTool for functions: Find-Geolocation, Get-PublicIPAddress","Timestamp":"2025-04-27T10:40:09.9155521+10:00"}
+{"TargetFunction":"Find-Geolocation","Level":"Verbose","Message":"Processing function: Find-Geolocation","Timestamp":"2025-04-27T10:40:09.9479799+10:00"}
+{"TargetFunction":"Find-Geolocation","Level":"Verbose","Message":"Getting help for function 'Find-Geolocation'","Timestamp":"2025-04-27T10:40:09.9853489+10:00"}
+{"TargetFunction":"Find-Geolocation","Level":"Verbose","Message":"Processing parameters for function 'Find-Geolocation'","Timestamp":"2025-04-27T10:40:10.0375346+10:00"}
+{"TargetFunction":"Find-Geolocation","Level":"Info","Message":"Successfully processed function 'Find-Geolocation'.","Timestamp":"2025-04-27T10:40:10.0934039+10:00"}
+{"TargetFunction":"Get-PublicIPAddress","Level":"Verbose","Message":"Processing function: Get-PublicIPAddress","Timestamp":"2025-04-27T10:40:10.0957471+10:00"}
+{"TargetFunction":"Get-PublicIPAddress","Level":"Verbose","Message":"Getting help for function 'Get-PublicIPAddress'","Timestamp":"2025-04-27T10:40:10.1097198+10:00"}
+{"TargetFunction":"Get-PublicIPAddress","Level":"Verbose","Message":"Processing parameters for function 'Get-PublicIPAddress'","Timestamp":"2025-04-27T10:40:10.1351209+10:00"}
+{"TargetFunction":"Get-PublicIPAddress","Level":"Info","Message":"Successfully processed function 'Get-PublicIPAddress'.","Timestamp":"2025-04-27T10:40:10.1488504+10:00"}
+{"Level":"Info","Message":"Generating JSON output.","FunctionCount":2,"Timestamp":"2025-04-27T10:40:10.1655271+10:00"}
+{"Level":"Info","Message":"Finished Register-MCPTool.","Timestamp":"2025-04-27T10:40:10.1838901+10:00"}
+{"Level":"Info","Message":"Starting MCP Server","Timestamp":"2025-04-27T10:40:10.1956402+10:00"}
