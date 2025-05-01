@@ -20,16 +20,13 @@ Set-LogFile "$PSScriptRoot\mcp_server.log"
 function Global:Get-PublicIPAddress {
     [CmdletBinding()]
     Param
-    (
-        # [Parameter(Mandatory = $false)]
-        # [switch]$Verbose
-    )
+    ()
     Begin {
         Write-Verbose -Message "Getting public IP Address"
     }
     Process {
         try {
-            $ip = Invoke-RestMethod http://ipinfo.io/json | Select -exp ip
+            $ip = Invoke-RestMethod http://ipinfo.io/json | Select-Object -exp ip
             Write-Output $ip
         }
         catch {

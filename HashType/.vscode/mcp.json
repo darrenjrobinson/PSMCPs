@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "mcp-powershell-HashTypeMCP": {
+            "type": "stdio",
+            "command": "pwsh",
+            "args": [                
+                "-NoProfile",
+                "-Command",
+                "${workspaceFolder}\\HashTypeMCP.ps1"
+            ]
+        }
+    }
+}
