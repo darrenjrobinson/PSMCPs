@@ -1,0 +1,16 @@
+{"Level":"Info","Message":"Starting Register-MCPTool for functions: Get-HashType","Timestamp":"2025-05-01T09:20:31.7946005+10:00"}
+{"Message":"Processing function: Get-HashType","Level":"Verbose","TargetFunction":"Get-HashType","Timestamp":"2025-05-01T09:20:31.8283852+10:00"}
+{"Message":"Getting help for function 'Get-HashType'","Level":"Verbose","TargetFunction":"Get-HashType","Timestamp":"2025-05-01T09:20:31.8883877+10:00"}
+{"Message":"Processing parameters for function 'Get-HashType'","Level":"Verbose","TargetFunction":"Get-HashType","Timestamp":"2025-05-01T09:20:32.0110364+10:00"}
+{"Message":"Successfully processed function 'Get-HashType'.","Level":"Info","TargetFunction":"Get-HashType","Timestamp":"2025-05-01T09:20:32.1709147+10:00"}
+{"Message":"Generating JSON output.","Level":"Info","FunctionCount":1,"Timestamp":"2025-05-01T09:20:32.2180000+10:00"}
+{"Level":"Info","Message":"Finished Register-MCPTool.","Timestamp":"2025-05-01T09:20:32.2693044+10:00"}
+{"Level":"Info","Message":"Starting MCP Server","Timestamp":"2025-05-01T09:20:32.3145534+10:00"}
+{"Message":"Starting Register-MCPTool for functions: Get-HashType","Level":"Info","Timestamp":"2025-05-01T09:23:50.5773697+10:00"}
+{"Level":"Verbose","TargetFunction":"Get-HashType","Message":"Processing function: Get-HashType","Timestamp":"2025-05-01T09:23:50.6443259+10:00"}
+{"Level":"Verbose","TargetFunction":"Get-HashType","Message":"Getting help for function 'Get-HashType'","Timestamp":"2025-05-01T09:23:50.7484166+10:00"}
+{"Level":"Verbose","TargetFunction":"Get-HashType","Message":"Processing parameters for function 'Get-HashType'","Timestamp":"2025-05-01T09:23:50.8460429+10:00"}
+{"Level":"Info","TargetFunction":"Get-HashType","Message":"Successfully processed function 'Get-HashType'.","Timestamp":"2025-05-01T09:23:51.0078131+10:00"}
+{"Level":"Info","FunctionCount":1,"Message":"Generating JSON output.","Timestamp":"2025-05-01T09:23:51.0664532+10:00"}
+{"Message":"Finished Register-MCPTool.","Level":"Info","Timestamp":"2025-05-01T09:23:51.1249344+10:00"}
+{"Message":"Starting MCP Server","Level":"Info","Timestamp":"2025-05-01T09:23:51.1753472+10:00"}
